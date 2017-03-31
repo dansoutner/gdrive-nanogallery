@@ -34,8 +34,7 @@ function retrieveOneFileArray($folderId, $apiKey){
 }
 
 function filterByMimeType($fileArray, $mimeType){ 
-  //vrati pole asociativnich poli souboru daneho MimeType
-  // returns array of
+  // returns array of files only with mimeType
   $filteredFileArray = [];
   foreach($fileArray as $file){
     if (strpos($file['mimeType'], $mimeType) !== false){
