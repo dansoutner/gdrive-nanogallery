@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "Orkney";
+    src: url(http://www.skauti-doubravka.cz/foto/qv/Orkney-Regular.woff);
+}
+
+body {
+	background-color: #286090;
+	font-family: 'Orkney';
+    font-weight: normal;
+    font-style: normal;
+}
+
+h4 {
+	color:white;
+}
+
+.back {
+	color:white;
+}
+
+.ngal_album {
+	width: 700px;
+	margin: 10px;
+	padding: 10px;
+	display: block;
+	background-color: #eee;
+	border-radius: 2px;
+	position:relative;
+	float:left;
+}
+
+.album-name {
+	font-family: 'Orkney';
+    font-weight: normal;
+    font-style: normal;
+	font-size: x-large;
+
+}
+
+.ngal_album a{
+
+}
+
+.ngal_album a:hover {
+    text-decoration: none;
+}
+
+.ngal_album img{
+	border-radius: 2px;
+}
+
+.ngal_content {
+	margin: 0 10px;
+	padding: 20px 30px;
+	float:left;
+}
+
+.ngal_foto {
+	margin: 10px;
+	float:left;
+}
